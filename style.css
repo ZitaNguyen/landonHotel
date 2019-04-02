@@ -1,0 +1,218 @@
+/***************************  GENERAL ****************************/
+body {
+    width: 100%;
+    height: 100%; 
+    font-family: 'Exo 2', sans-serif;
+}
+
+/***************************  FULLHEIGHT ****************************/
+header .fullheight .hgroup {
+    padding: 100px 0 300px 0;
+}
+
+header .fullheight {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('images/hotel/splash_hotelphoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .fullheight .hgroup h1 {
+    color: #FFFFFF;
+    font-size: 5em;
+    font-weight: 800;
+    line-height: .8em;
+    text-shadow: #000000 0 0 20px;
+    text-align: center;
+}
+
+header .fullheight .hgroup h2 {
+    display: block;
+    color: #FFFFFF;
+    width: 60%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+}
+
+header .fullheight .hgroup p {
+    text-align: center;
+}
+
+header .fullheight .hgroup p img {
+    padding-top: 40px;
+    max-width: 50px;
+}
+/***************************  NAV ****************************/
+header nav a {
+    text-decoration: none;
+}
+
+header #nav {
+    background-color: #063642;
+}
+
+
+header #nav:after {
+    clear: both;
+}
+
+header #nav .navbar {
+    max-width: 60em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header #nav .navbar .brand {
+    width: 33.33333%;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: #DF4848;
+    padding: 20px 0;
+  }
+
+header #nav .navbar .brand a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+   
+}
+
+header #nav .navbar ul {
+    width: 66.66667%;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    float: left;
+}
+
+header #nav .navbar ul li {
+    float: left;
+    list-style: none;
+}
+
+header #nav .navbar ul li a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+header #nav .navbar ul li a:hover {
+    background-color: #DF4848;
+    color: #FFFFFF;
+}
+
+/***************************  EVENTS ****************************/
+#events {
+    background: url('images/hotel/events_conference.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0 350px 0;
+}
+
+#events article {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+#events h2 {
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+#event-list {
+    margin: 1rem 1rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#event-list li {
+    margin: 0 0 0.5em;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+#clock {
+    margin: 1rem 1rem;
+}
+
+#clock .label {
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(37, 17, 8, 0.7);
+    padding: 0.25em 1rem;
+}
+
+#current-date {
+    font-size: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem 1rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#current-time {
+    font-size: 200%;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#current-date + #current-time {
+	padding-top: 0;
+}
+
+.trans {
+    color: transparent;
+}
+
+/***************************  FOOTER ****************************/
+footer {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #333333;
+    padding: 30px 0;
+}
+
+footer #socialmedia {
+    text-align: center;
+}
+
+footer #socialmedia ul {
+    list-style: none;
+}
+
+footer #socialmedia ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer #socialmedia ul li img {
+    width: 30px;
+    border-radius: 50%;
+}
+
